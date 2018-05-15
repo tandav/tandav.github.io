@@ -1,0 +1,22 @@
+Sun Sep  2 15:51:04 MSK 2018 | add screenshots
+Sun Sep  2 16:08:08 MSK 2018 | add changelog and upd.sh
+Sun Sep  2 16:16:08 MSK 2018 | update screenshots link on index (delete link to telegram channel)
+Sun Sep  2 16:18:40 MSK 2018 | change commit message from upd to see CHANGELOG.txt
+Sun Sep  2 19:58:28 MSK 2018 | add png support to screenshots
+Sun Sep  2 20:10:00 MSK 2018 | add calling make-screenshots.py in upd.sh
+Sun Sep  2 20:11:06 MSK 2018 | add missing --quiet flag in upd.sh
+Sun Sep  2 20:24:30 MSK 2018 | fix wrong --quiet behavior
+Sun Sep  2 20:26:36 MSK 2018 | mv upd.sh update-website.sh
+Sun Sep  2 20:36:43 MSK 2018 | simpler --quet argv handling
+Mon Sep  3 22:49:27 MSK 2018 | add last-seen banner and status page
+Mon Sep  3 22:51:27 MSK 2018 | fix status/status.html to status/index.html
+Mon Sep  3 22:57:20 MSK 2018 | fix earth link
+Mon Sep  3 23:21:31 MSK 2018 | better status, cleaner index
+Mon Sep  3 23:35:23 MSK 2018 | add city name to earth.png
+Wed Sep  5 14:30:24 MSK 2018 | new screens
+Wed Sep 26 09:33:25 MSK 2018 | new screens
+Sat Sep 29 15:40:11 MSK 2018 | new screens
+Wed Mar 13 15:27:56 MSK 2019 | add my lastfm
+Wed Sep 25 23:29:01 MSK 2019 | p
+Wed Sep 25 23:29:50 MSK 2019 | add hello.py
+Sat Oct 26 18:15:50 MSK 2019 | add tab search

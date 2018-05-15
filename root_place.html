@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>root_place</title>
+</head>
+<body align="center">
+<h1>root_place</h1>
+<img src="root_place.jpg" usemap="#image_map">
+<map name="image_map">
+
+<area shape="rect" coords="229,439,286,505" href="https://twitter.com/tandavaya" title="https://twitter.com/tandavaya"/>
+<area shape="rect" coords="152,487,210,557" href="https://github.com/tandav" title="https://github.com/tandav"/>
+<area shape="rect" coords="302,439,365,495" href="mailto:alx1dr@gmail.com" title="mailto:alx1dr@gmail.com"/>
+<area shape="rect" coords="252,528,311,600" href="tg://resolve?domain=tandav" title="tg://resolve?domain=tandav"/>
+
+</map>
+
+<br/>
+<kbd>C</kbd> copy <kbd>S</kbd> select <kbd>&#8984E</kbd> eval
+<br/>
+<textarea class="js-copytextarea" rows="1" cols="100">open -b com.adobe.Photoshop ~/Documents/spaces/tandav.github.io/root_place.psd</textarea>
+
+<script> 
+document.addEventListener("keydown", function(event) { 
+    console.log(event.keyCode) 
+    
+    if (event.keyCode === 67) {
+        var copyTextarea = document.querySelector(".js-copytextarea")
+        copyTextarea.focus()
+        copyTextarea.select()
+        document.execCommand("copy")
+        window.getSelection().removeAllRanges()
+    }
+    
+    else if (event.keyCode === 83) {
+        var copyTextarea = document.querySelector(".js-copytextarea")
+        copyTextarea.focus()
+        copyTextarea.select()
+        event.preventDefault()
+    }
+})
+</script>
+
+<style>
+body {
+    background-color: linen;
+    font-family: Lucida Grande;
+    /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
+}
+
+textarea {
+    background-color: #292E3D;
+    color: white;
+    font-family: Menlo, monospace;
+}
+
+kbd {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding: 0px 3px 0px 3px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+</style>
+
+</body>
+</html>
