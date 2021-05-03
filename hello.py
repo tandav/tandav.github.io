@@ -10,3 +10,5 @@ print('''
 
 https://tandav.github.io
 ''')
+
+# curl https://tandav.github.io/hello.py | python
